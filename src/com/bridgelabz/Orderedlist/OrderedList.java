@@ -12,6 +12,10 @@ public class OrderedList <K> {
     Node head;
     static int size;
 
+    public OrderedList(Integer input) {
+
+    }
+
     public void OrdereList(K k) {
         this.k = k;
         linkedList();
